@@ -52,7 +52,7 @@ function LoginFormHomeWork() {
           value={passwordConfirmation}
           onChange={(event) => setPasswordConfirmation(event.target.value)}
           placeholder="Enter Confirm Password"
-          name="password"
+          name="passwordConfirmation"
           type="password"
         />
         {passwordConfirmation === "" ? (
